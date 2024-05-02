@@ -12,7 +12,7 @@ public class MaClasse {
     private WebDriver driver;
     @BeforeEach
     void SetUp(){
-        System.setProperty("webdriver.chrome.driver","/opt/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
         //options.setExperimentalOption("prefs", chromePrefs);
         options.addArguments("--no-sandbox");

@@ -18,7 +18,7 @@ public class MaClasse {
         options.addArguments("--no-sandbox");
         //options.addArguments("--headless"); //!!!should be enabled for Jenkins
         driver = new ChromeDriver(options);
-    }
+     }
     @AfterEach
     void TearDown(){
         driver.quit();
